@@ -1,0 +1,22 @@
+{
+	"name": "sheillendra/yii2-fonts",
+	"description": "Yii2 Fonts and icon collection",
+	"keywords": ["font", "sheillendra", "yii2","yii","icon"],
+	"type": "yii2-extension",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Sheillendra",
+			"email": "sheillendra@yahoo.com"
+		}
+	],
+	"require": {
+		"yiisoft/yii2": "*",
+		"FortAwesome/Font-Awesome": "*"
+	},
+	"autoload": {
+		"psr-4": {
+			"sheillendra\\fonts\\": ""
+		}
+	}
+}
